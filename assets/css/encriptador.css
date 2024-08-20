@@ -103,12 +103,13 @@ footer > p {
 
 form {
   margin-top: 10px;
+  text-align: center;
 }
 
 form > label {
   color: whitesmoke;
   background-color: #950f30;
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px 8px;
   font-size: 15px;
 }

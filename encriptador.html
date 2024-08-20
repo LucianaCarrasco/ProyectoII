@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/encriptador.css" />
     <title>Love Encriptador</title>
+    <!-- Incluye el archivo CSS de Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
   </head>
 
   <body>
@@ -25,7 +31,13 @@
           <button type="button" id="cifrar">🔒 Encriptar</button>
           <form>
             <label for="desplazamiento">Contraseña</label>
-            <input type="number" min="1" id="desplazamiento" size="2" />
+            <input
+              type="number"
+              min="1"
+              id="desplazamiento"
+              size="2"
+              value="1"
+            />
           </form>
           <button type="button" id="descifrar">🔓 Desencriptar</button>
         </div>
@@ -48,5 +60,9 @@
       <p>&copy;LadyCoders 2024</p>
     </footer>
     <script src="./assets/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
   </body>
 </html>
